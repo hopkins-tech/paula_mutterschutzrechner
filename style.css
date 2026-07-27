@@ -38,7 +38,7 @@ h1 { color: #1a202c; margin: 0 0 0.5rem 0; font-size: 1.75rem; font-weight: 700;
 .checkbox-group { display: flex; align-items: center; padding: 0.75rem; background: #f7fafc; border: 2px solid #e2e8f0; border-radius: 6px; cursor: pointer; transition: all 0.2s ease; }
 .checkbox-group:hover { background: #edf2f7; border-color: #cbd5e0; }
 .checkbox-group input[type="checkbox"] { width: 20px; height: 20px; margin-right: 0.75rem; cursor: pointer; accent-color: #006e80; }
-.checkbox-group label { margin: 0; cursor: pointer; flex: 1; font-weight: 500; font-size: 0.95rem; color: #2d3748; }
+.checkbox-group label { margin: 0; cursor: pointer; flex: 1; font-weight: 500; font-size: 0.75rem; color: #2d3748; }
 
 .button-group { display: flex; gap: 0.75rem; margin-top: 1.5rem; }
 .button-group button { flex: 1; padding: 0.75rem 1rem; border: none; border-radius: 6px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease; }
@@ -53,7 +53,7 @@ h1 { color: #1a202c; margin: 0 0 0.5rem 0; font-size: 1.75rem; font-weight: 700;
 
 .result-item { background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 6px; margin-bottom: 0.5rem; }
 .result-label { font-size: 0.875rem; opacity: 0.9; margin-bottom: 0.25rem; font-weight: 500; color: white; }
-.result-value { font-size: 1rem; font-weight: 700; line-height: 1; color: white; }
+.result-value { font-size: 0.875rem; font-weight: 700; line-height: 1; color: white; }
 .info-box { background: rgba(255,255,255,0.15); color: white; padding: 0.75rem; border-radius: 6px; margin-top: 1rem; font-size: 0.85rem; line-height: 1.6; }
 
 .error-message { background: #fed7d7; color: #c53030; padding: 1rem; border-radius: 6px; border: 1px solid #feb2b2; margin-top: 1rem; display: none; font-size: 0.95rem; }
@@ -68,13 +68,13 @@ h1 { color: #1a202c; margin: 0 0 0.5rem 0; font-size: 1.75rem; font-weight: 700;
     .form-group label { margin-bottom: 0.5rem; font-size: 0.95rem; }
     .form-group input[type="date"] { padding: 0.75rem; font-size: 1rem; }
     .checkbox-group { padding: 0.75rem; }
-    .checkbox-group label { font-size: 0.95rem; }
+    .checkbox-group label { font-size: 0.75rem; }
     .button-group { flex-direction: column; gap: 0.75rem; margin-top: 1.5rem; } 
     .button-group button { padding: 0.75rem 1rem; font-size: 0.95rem; }
     .result-section { padding: 1.25rem; margin-top: 1.5rem; }
     .result-item { padding: 1rem; margin-bottom: 0.5rem; }
     .result-label { font-size: 0.875rem; margin-bottom: 0.25rem; }
-    .result-value { font-size: 1rem; } 
+    .result-value { font-size: 0.875rem; } 
     .info-box { padding: 0.75rem; font-size: 0.85rem; margin-top: 1rem; }
 }
 
@@ -89,7 +89,7 @@ h1 { color: #1a202c; margin: 0 0 0.5rem 0; font-size: 1.75rem; font-weight: 700;
     .checkbox-wrapper { gap: 0.75rem; }
     .checkbox-group { padding: 0.625rem; gap: 0.5rem; }
     .checkbox-group input[type="checkbox"] { width: 18px; height: 18px; }
-    .checkbox-group label { font-size: 0.875rem; }
+    .checkbox-group label { font-size: 0.75rem; }
     .button-group { margin-top: 1.25rem; gap: 0.5rem; }
     .button-group button { padding: 0.625rem 0.75rem; font-size: 0.875rem; }
     .result-section { padding: 1rem; margin-top: 1rem; }
