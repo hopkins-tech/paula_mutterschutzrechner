@@ -72,8 +72,10 @@ h1 { color: #1a202c; margin: 0 0 0.5rem 0; font-size: 2.25rem; font-weight: 700;
     .button-group { flex-direction: column; gap: 0.75rem; margin-top: 1.5rem; } 
     .button-group button { padding: 0.75rem 1rem; font-size: 0.95rem; }
     .result-section { padding: 1.25rem; margin-top: 1.5rem; }
-    .result-item { padding: 1rem; margin-bottom: 0.75rem; }
+    .result-item { padding: 1rem; margin-bottom: 0.5rem; }
+    .result-label { font-size: 1rem; margin-bottom: 0.25rem; }
     .result-value { font-size: 1.5rem; } 
+    .info-box { padding: 0.75rem; font-size: 0.85rem; margin-top: 1rem; }
 }
 
 @media (max-width: 480px) { 
